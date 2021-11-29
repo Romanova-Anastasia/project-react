@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import Button from './componeents/Button';
-import ButtonFC from './componeents/Button';
+//import Button from './components/Button';
+import ButtonFC from './components/Button';
 import './index.css';
 //import App from './App';
 
