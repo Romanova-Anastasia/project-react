@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import Button from './components/Button';
-import ButtonFC from './components/Button';
+import Counter from './components/Counter_Component';
 import './index.css';
 //import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ButtonFC/>
+    <Counter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
