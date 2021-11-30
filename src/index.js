@@ -1,15 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import Button from './components/Button';
-import ButtonFC from './components/Button';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import ButtonComponent from "./components/P-6_2.State_Cyclic-button";
+import "./index.css";
 //import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ButtonFC/>
+    <ButtonComponent />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-
