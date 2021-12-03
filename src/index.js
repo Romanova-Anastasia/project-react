@@ -6,6 +6,7 @@ import Counter from './components/Counter_Component';
 import ButtonCL from './components/P-6_1.State_Custom-checkbox';
 import PopUpText from './components/P-7_Conditional-rendering';
 import './index.css';
+import DropdownBox from './components/P-7_DropDown';
 //import App from './App';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <ButtonFC/>
     <HideText/>
     <PopUpText/>
+    <DropdownBox/>
   </React.StrictMode>,
   document.getElementById('root')
 );
