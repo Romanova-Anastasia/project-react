@@ -6,7 +6,7 @@ const PopUpText = () => {
   const [greeting, setGreeting] = useState("");
 
   const sayHi = () => {
-    setGreeting("Hello!");
+    setGreeting("Hello World!");
     setLoading(false);
   };
 
