@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    width: 500px;
+}
+
+.button-plus {
+    border: 1px solid pink;
+    background: #d0edfa;
+    color: red;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.button-minus {
+    border: 1px solid pink;
+    background: #d0edfa;
+    color: red;
+    font-size: 24px;
+    padding: 10px 17px;
+    cursor: pointer;
+}
+.image{
+    position: absolute;
+    top: 6em;
+    width: 31rem;
+    height: 18rem;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/932693487078589462/F30AD837E826D4D0B44DFAB0B5D1BE39A82F05D6/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+}
