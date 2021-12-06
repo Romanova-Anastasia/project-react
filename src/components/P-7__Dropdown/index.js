@@ -23,8 +23,8 @@ const DropdownBox = () => {
     setHaveText(event.currentTarget.textContent);
   };
 
-  const itemList = (props) => {
-    const list = props.map((item) => (
+  const itemList = (ingredients) => {
+    const list = ingredients.map((item) => (
       <div onClick={handleText} className="dropdown__item">
         {item}
       </div>
